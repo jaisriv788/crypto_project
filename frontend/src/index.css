@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none; /* Removes background so arrow is gone */
+}
+
+.h1 {
+  height: 10%;
+  background-color: #383839;
+}
+
+.h2 {
+  height: 90%;
+  background-color: #0d0e0f;
+}
+
+.c1 {
+  background-color: #282759;
+}
+
+.c1-hover:hover {
+  background-color: #282759; /* Example hover color */
+}
+
+.c2 {
+  background-color: #121236;
+}
+
+.c2-hover:hover {
+  background-color: #121236; /* Example hover color */
+}
+
+.c3 {
+  background-color: #1d1c49;
+}
+
+.f1 {
+  color: #8786b5;
+}
+
+/* Remove scrollbar arrows in WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 8px; /* Set a width for the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+  border-radius: 6px; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #282759; /* Thumb color */
+  border-radius: 6px; /* Thumb radius */
+}
+
+/* Hide scrollbar arrows */
+::-webkit-scrollbar-button {
+  display: none; /* Hide arrows */
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.border1 {
+  border: 1px solid white;
+}
+
+.b1 {
+  background-color: #16171a;
+}
+
+.b2 {
+  background-color: #333333;
+}
+
+.b3 {
+  background-color: #008cba;
+}
